@@ -1,3 +1,8 @@
 remote_theme: pages-themes/slate@v0.2.0
 title: Miracle Ostrich
 description: Python, Notebooks, and Ostrich Miracles.
+
+# This tells the theme which links to show at the top
+header_pages:
+  - index.html
+  - about.md
