@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "First Blog Post"
+title: "Hello World: My First Post"
 date: 2026-03-02 09:00:00 -0800
 ---
 
-# Success!
-This post was created manually on GitHub. It will now show up on my homepage automatically.
+# Hello!
+This is my very first post on my new GitHub Pages site. 
+I am hosting this using my custom domain **miracleostrich.ca**.
