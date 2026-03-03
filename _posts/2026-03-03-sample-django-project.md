@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Django Sample Project"
-date: 2026-03-03 05:30:00 -0800
+date: 2026-03-03 00:00:00 -0800
 categories: [Python]
 ---
 
