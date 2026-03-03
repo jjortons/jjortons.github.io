@@ -2,6 +2,7 @@
 layout: post
 title: "Hello World: My First Post"
 date: 2026-03-02 09:00:00 -0800
+categories: [General]
 ---
 
 # Hello!
