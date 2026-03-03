@@ -2,6 +2,7 @@
 layout: post
 title: "Second Post: Afternoon Update"
 date: 2026-03-02 15:30:00 -0800
+categories: [Python]
 ---
 
 # Another Update
