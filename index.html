@@ -1,12 +1,17 @@
 ---
 layout: default
+title: Home
 ---
 
-<h1>My Posts</h1>
+<h1>Welcome to Miracle Ostrich</h1>
+
+<p>Here are my latest updates:</p>
+
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_調整: "%b %d, %Y" }})
+      <strong>{{ post.date | date: "%b %d, %Y" }}</strong>: 
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
