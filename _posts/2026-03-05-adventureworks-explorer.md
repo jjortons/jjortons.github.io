@@ -2,7 +2,7 @@
 layout: post
 title: "Interactive AdventureWorks Explorer"
 date: 2026-03-05
-categories: data-science
+categories: [data-science]
 ---
 
 Below is a live connection to my AdventureWorks database on Neon.tech. 
