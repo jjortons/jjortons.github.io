@@ -1,23 +1,10 @@
 ---
 layout: post
-title: "Hello World: My First Post"
-date: 2026-03-05 09:00:00 -0800
+title: "Hello World: My Second Post"
+date: 2026-03-02 09:00:00 -0800
 categories: [General]
 ---
 
 # Hello!
-Below is a live connection to my AdventureWorks database on Neon.tech. 
-You can run SQL queries and Pandas operations directly in the interface.
-
-<iframe
-  src="https://jjortons-adventureworks-explorer.hf.space"
-  frameborder="0"
-  width="100%"
-  height="900px"
-  allowfullscreen
-></iframe>
-
----
-*Note: This app is hosted on Hugging Face Spaces and connects securely to a Neon PostgreSQL instance.*
-
-
+This is my very first post on my new GitHub Pages site. 
+I am hosting this using my custom domain **miracleostrich.ca**.
