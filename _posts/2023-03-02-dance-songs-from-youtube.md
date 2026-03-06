@@ -15,7 +15,7 @@ I am hosting this using my custom domain **miracleostrich.ca**.
 <script>
 {% raw %}
   var playlistId = 'PL9bCSP6AmQJUUI8NgSC9cg201o3AkeD_V';
-  var totalSongs = 15; // Update this to your current song count
+  var totalSongs = 75; // Update this to your current song count
   var randomStartPos = Math.floor(Math.random() * totalSongs);
 
   document.getElementById('player').innerHTML = '<iframe width="100%" height="450" src="https://www.youtube.com/embed/videoseries?list=' + playlistId + '&index=' + randomStartPos + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
