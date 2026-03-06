@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Adventureworks Data Explorer using Hugging Faces"
-date: 2026-03-04 09:00:00 -0800
-categories: [General]
+title: "Looker Studio Sample"
+date: 2026-03-05 09:00:00 -0800
+categories: [DataViz]
 ---
 
 # Hello!
