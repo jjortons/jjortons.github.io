@@ -1,11 +1,15 @@
 <header>
   <div class="container">
-    <img src="{{ site.baseurl }}/assets/img/cute-ostrich-in-flat-style-isolated-on-background-vector-21320630.avif" alt="Miracle Ostrich Logo" style="float: left; margin-right: 20px; height: 60px; width: auto;">
-    
-    <a id="a-title" href="{{ '/' | relative_url }}">
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-    </a>
-    <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    {% if site.header_logo %}
+      <img src="{{ site.header_logo | relative_url }}" alt="{{ site.title }} Logo" style="float: left; margin-right: 20px; height: 70px; width: auto; border-radius: 8px;">
+    {% endif %}
+
+    <div style="display: inline-block;">
+      <a id="a-title" href="{{ '/' | relative_url }}">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      </a>
+      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    </div>
 
     {% if site.github.is_project_page %}
       <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
