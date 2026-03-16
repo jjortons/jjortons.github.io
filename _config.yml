@@ -6,3 +6,7 @@ header_logo: "/assets/img/cute-ostrich.png"
 header_pages:
   - index.html
   - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
