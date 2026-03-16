@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+    <div style="background: red; color: white; padding: 20px;">
+      <h1>IF YOU SEE THIS RED BOX, CUSTOM LAYOUTS ARE WORKING</h1>
+      <img src="{{ site.header_logo | relative_url }}" style="height:100px;">
+    </div>
+    {{ content }}
+  </body>
+</html>
