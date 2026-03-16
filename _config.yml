@@ -1,7 +1,7 @@
 remote_theme: pages-themes/slate@v0.2.0
 title: Miracle Ostrich
 description: Python, Notebooks, and sometimes... Ostrich Miracles.
-header_logo: /assets/img/cute-ostrich.png # Custom variable
+header_logo: "/assets/img/cute-ostrich.png"
 
 header_pages:
   - index.html
