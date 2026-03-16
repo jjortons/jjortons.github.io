@@ -1,23 +1,5 @@
 <header>
   <div class="container">
-    {% if site.header_logo %}
-   
-      <img src="{{ site.header_logo | relative_url }}" alt="{{ site.title }} Logo" style="float: left; margin-right: 20px; height: 70px; width: auto; border-radius: 8px;">
-    {% endif %}
-
-    {% if site.title %}
-    <b style="color: green;">The IF statement is EXECUTING!</b>
-    
-    <div style="display: inline-block;">
-      <a id="a-title" href="{{ '/' | relative_url }}">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      </a>
-      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-    </div>
-    {% endif %}
-    
-    {% if site.github.is_project_page %}
-      <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-    {% endif %}
+    <h1>Hello world!</h1>
   </div>
 </header>
