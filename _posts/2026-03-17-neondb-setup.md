@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hello World: My First Post"
-date: 2026-03-17 10:00:00 -0800
+title: "psql dump to Neon"
+date: 2026-03-17 09:30:00 -0800
 categories: [General]
 ---
 
