@@ -6,7 +6,8 @@ categories: [DataViz]
 ---
 
 # Hello!
-Below is a live connection to my AdventureWorks database on Neon.tech. 
+HOWTO: Setting up LookerStudio to use the AdventureWorks db set up at neon.com 
+
 - once logged in in a google account. goto lookerstudio.google.com, 
     - select Blank Report
     - in Connect to data, click PostgreSQL
@@ -16,7 +17,9 @@ Below is a live connection to my AdventureWorks database on Neon.tech.
 - login to neon.com account using github (preferred)
     - select db to use then click Connect to get connection string, copy snippet
            ex. postgresql://neondb_owner:npg_HbTDlU9zefV2@ep-muddy-cherry-aiacm753-pooler.c-4.us-east-1.aws.neon.tech/adventureworks-db?sslmode=require&channel_binding=require
-           
+
+![Alt text]({{ site.baseurl }}/assets/img/looker-authenticate-success.png)
+
         
 - go back to lookerstudio, fill as follows:
     - host name or ip: ep-muddy-cherry-aiacm753-pooler.c-4.us-east-1.aws.neon.tech
