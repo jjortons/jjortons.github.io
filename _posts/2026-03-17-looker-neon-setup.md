@@ -105,3 +105,4 @@ FROM sales.salesorderheader h
 	LEFT JOIN person.person pe ON c.personid = pe.businessentityid
 	LEFT JOIN person.person pe2 ON h.salespersonid = pe2.businessentityid
 ;
+
