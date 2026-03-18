@@ -6,11 +6,10 @@ categories: [General]
 ---
 
 # Hello!
-This is my very first post on my new GitHub Pages site. 
 I am hosting this using my custom domain **miracleostrich.ca**.
 
 
-HOWTO: create a new project (db) in neon.tech
+##HOWTO: create a new project (db) in neon.tech
 
 get the connection string "postgresql://...."
 
