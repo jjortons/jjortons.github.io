@@ -16,7 +16,7 @@ get the connection string "postgresql://...."
 
 using powershell
 
-psql -d "postgresql://neondb_owner:npg_BeT8Wk9cwfnv@ep-floral-credit-ad9os99j-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require" -f "c:\hp\miracleostrich\adventure_works_dump.sql"
+psql -d "postgresql://neondb_owner:****************@ep-floral-credit-ad9os99j-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require" -f "c:\hp\miracleostrich\adventure_works_dump.sql"
 
 
 to test:
