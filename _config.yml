@@ -10,3 +10,8 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:name/
