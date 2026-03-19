@@ -12,3 +12,14 @@ layout: default
     {% endfor %}
   </ul>
 {% endfor %}
+
+<hr>
+
+<h2>Technical Guides</h2>
+<ul>
+  {% for doc in site.docs %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
