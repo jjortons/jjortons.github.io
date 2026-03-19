@@ -2,7 +2,8 @@
 layout: post
 title: "psql dump to Neon"
 date: 2026-03-15 09:00:00 -0800
-categories: [General]
+permalink: /docs/neondb-setup/
+categories: [Docs]
 ---
 
 # Hello!
