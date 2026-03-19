@@ -12,6 +12,7 @@ I am hosting this using my custom domain **miracleostrich.ca**.
 #### HOWTO: create a new project (db) in neon.com
 
 1. Create a project (db) in neon.com
+   
  Get the connection string "postgresql://...."
 
 2. Using powershell
