@@ -9,18 +9,19 @@ categories: [General]
 I am hosting this using my custom domain **miracleostrich.ca**.
 
 
-####HOWTO: create a new project (db) in neon.tech####
+#### HOWTO: create a new project (db) in neon.com
 
-1. get the connection string "postgresql://...."
+1. Create a project (db) in neon.com
+ Get the connection string "postgresql://...."
 
-2. using powershell
+2. Using powershell
 
- * psql -d "postgresql://neondb_owner:****************@ep-floral-credit-ad9os99j-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require" -f "c:\hp\miracleostrich\adventure_works_dump.sql"
+ psql -d "postgresql://neondb_owner:****************@ep-floral-credit-ad9os99j-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require" -f "c:\hp\miracleostrich\adventure_works_dump.sql"
 
-
-* to test:
- * use sql editor on the project (db) created
-  ex. select * from sales.salesorderdetail limit 5;
-
+3. After the .sql is executed, test:
+   
+ Use sql editor on the project (db) created
+ 
+ Ex. select * from sales.salesorderdetail limit 5;
 
 <img src="/assets/img/testing-neondb.png" alt="neondb using dump.sql" width="400">
