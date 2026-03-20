@@ -25,4 +25,4 @@ I am hosting this using my custom domain **miracleostrich.ca**.
  
    Ex. select * from sales.salesorderdetail limit 5;
 
-<img src="_docs/assets/img/testing-neondb.png" alt="setting up a neondb using sql dump" width="400">
+<img src="/assets/img/testing-neondb.png" alt="setting up a neondb using sql dump" width="400">
