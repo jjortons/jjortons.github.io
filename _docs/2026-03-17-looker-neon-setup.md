@@ -2,26 +2,26 @@
 layout: post
 title: "Setting up Looker Studio with AdventureWorks DB at neon.tech"
 date: 2026-03-17 09:00:00 -0800
-categories: [DataViz]
+categories: [Technical Guides]
 ---
 
 # Hello!
-HOWTO: Setting up LookerStudio to use the AdventureWorks db set up at neon.com 
 
-- once logged in in a google account. goto lookerstudio.google.com, 
-    - select Blank Report
-    - in Connect to data, click PostgreSQL
+
+## HOWTO: Setting up LookerStudio to use the AdventureWorks db set up at neon.com 
+
+1. Log in in a google account. At url, proceed to lookerstudio.google.com, 
+   - select Blank Report
+   - in Connect to data, click PostgreSQL
         
     
 
-- login to neon.com account using github (preferred)
-    - select db to use then click Connect to get connection string, copy snippet
-           ex. postgresql://neondb_owner:npg_HbTDlU9zefV2@ep-muddy-cherry-aiacm753-pooler.c-4.us-east-1.aws.neon.tech/adventureworks-db?sslmode=require&channel_binding=require
+2. Log in to neon.com account using github (preferred)
+   
+   - select db to use then click Connect to get connection string, copy snippet
+   Ex. postgresql://neondb_owner:****************@ep-muddy-cherry-aiacm753-pooler.c-4.us-east-1.aws.neon.tech/adventureworks-db?sslmode=require&channel_binding=require
 
-
-
-        
-- go back to lookerstudio, fill as follows:
+3. Go back to lookerstudio, fill as follows:
     - host name or ip: ep-muddy-cherry-aiacm753-pooler.c-4.us-east-1.aws.neon.tech
     - port: 5432
     - database: adventureworks-db
@@ -35,7 +35,7 @@ HOWTO: Setting up LookerStudio to use the AdventureWorks db set up at neon.com
 	<img src="/assets/img/looker-authenticate-success.png" alt="authentication success" width="400">
 
 	
-- select Custom Query, enter this:
+4. Select Custom Query, enter in the textbox on the right:
 
 SELECT 
 	h.salesorderid,
