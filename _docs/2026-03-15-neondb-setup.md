@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "psql dump to Neon"
+title: "Setting up a Neon db using psql dump of AdventureWorks dataset"
 date: 2026-03-15 09:00:00 -0800
 permalink: /docs/neondb-setup/
 categories: [Docs]
 ---
 
-# Hello!
-I am hosting this using my custom domain **miracleostrich.ca**.
 
 #### HOWTO: Using a PostgreSQL dump sql to create a new db source in neon.com
 
