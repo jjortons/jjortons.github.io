@@ -2,7 +2,7 @@
 layout: post
 title: "ESP32-C3 ULN2003 24BYJ-48 motor"
 date: 2026-03-24 09:00:00 -0800
-categories: [IOT]
+categories: [IdiOT]
 ---
 
 # Hello!
