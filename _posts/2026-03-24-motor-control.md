@@ -14,6 +14,7 @@ I am hosting this using my custom domain **miracleostrich.ca**.
 
 arduino sketch, esp32c3 dev kit
 
+``` cpp
 // Define the pins connected to the ULN2003 Driver IN1-IN4
 const int pin1 = 3; 
 const int pin2 = 4;
@@ -58,3 +59,4 @@ void loop() {
   
   delay(1000); // Wait a second before restarting the chase
 }
+```
